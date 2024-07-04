@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+   
+}
+
+.stopwatch {
+    margin: 200px auto;
+    width: 300px;
+    background-color: #afafad;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.time {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.reset-btn,
+.startPause-btn,
+.lap-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.reset-btn {
+    background-color: #e69393; 
+    color:black;
+}
+
+.reset-btn:hover {
+    background-color: #1c0801; 
+    color:white
+}
+
+.startPause-btn {
+    background-color: #5aceeb; 
+    color: black;
+}
+
+.startPause-btn:hover {
+    background-color: #034358;
+    color:white; 
+}
+
+.lap-btn {
+    background-color: #3ffa3f;
+    color: black;
+}
+
+.lap-btn:hover {
+    background-color: #015101; 
+    color:white;
+}
+
+.lap-list {
+    text-align: left;
+    margin-top: 20px;
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+.lap-item {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
